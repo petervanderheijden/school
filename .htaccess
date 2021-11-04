@@ -2,10 +2,10 @@
 Options +FollowSymLinks
 RewriteEngine on
 RewriteCond %{HTTP_HOST} ^https://petergg.netlify.app[nc]
-RewriteRule ^(.*)$ http://www.https://petergg.netlify.app/$1 [r=301,nc]
+RewriteRule ^(.*)$ https://petergg.netlify.app/$1 [r=301,nc]
 
 //Custom 404 errors
-ErrorDocument 404 /pages/404/index.html
+ErrorDocument 404 /pages/404/
 
 //Change default directory page
 DirectoryIndex pages/home/
