@@ -8,7 +8,7 @@ RewriteRule ^(.*)$ https://petergg.netlify.app/$1 [r=301,nc]
 ErrorDocument 404 /pages/404/
 
 //Change default directory page
-DirectoryIndex pages/home/
+DirectoryIndex /pages/home/
 
 //Prevent viewing of .htaccess file
 <Files .htaccess>
